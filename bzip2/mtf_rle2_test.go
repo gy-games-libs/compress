@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dsnet/compress/internal/errors"
+	"github.com/gy-games-libs/compress/internal/errors"
 )
 
 func TestMoveToFront(t *testing.T) {

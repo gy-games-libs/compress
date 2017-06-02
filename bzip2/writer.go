@@ -7,9 +7,9 @@ package bzip2
 import (
 	"io"
 
-	"github.com/dsnet/compress/internal"
-	"github.com/dsnet/compress/internal/errors"
-	"github.com/dsnet/compress/internal/prefix"
+	"github.com/gy-games-libs/compress/internal"
+	"github.com/gy-games-libs/compress/internal/errors"
+	"github.com/gy-games-libs/compress/internal/prefix"
 )
 
 type Writer struct {

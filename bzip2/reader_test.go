@@ -10,8 +10,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/dsnet/compress/internal/errors"
-	"github.com/dsnet/compress/internal/testutil"
+	"github.com/gy-games-libs/compress/internal/errors"
+	"github.com/gy-games-libs/compress/internal/testutil"
 )
 
 func TestReader(t *testing.T) {

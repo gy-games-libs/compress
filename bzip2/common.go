@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/dsnet/compress/internal"
-	"github.com/dsnet/compress/internal/errors"
+	"github.com/gy-games-libs/compress/internal"
+	"github.com/gy-games-libs/compress/internal/errors"
 )
 
 // There does not exist a formal specification of the BZip2 format. As such,
