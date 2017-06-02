@@ -11,9 +11,9 @@ import (
 	"errors"
 	"io/ioutil"
 
-	"github.com/dsnet/compress"
-	gbzip2 "github.com/dsnet/compress/bzip2"
-	cbzip2 "github.com/dsnet/compress/internal/cgo/bzip2"
+	"github.com/gy-games-libs/compress"
+	gbzip2 "github.com/gy-games-libs/compress/bzip2"
+	cbzip2 "github.com/gy-games-libs/compress/internal/cgo/bzip2"
 )
 
 func Fuzz(data []byte) int {

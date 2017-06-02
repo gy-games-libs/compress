@@ -9,8 +9,8 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/dsnet/compress/internal/errors"
-	"github.com/dsnet/compress/xflate/internal/meta"
+	"github.com/gy-games-libs/compress/internal/errors"
+	"github.com/gy-games-libs/compress/xflate/internal/meta"
 )
 
 // A Writer is an io.Writer that can write the XFLATE format.

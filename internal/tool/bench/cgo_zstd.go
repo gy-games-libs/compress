@@ -6,7 +6,7 @@
 
 package main
 
-import "github.com/dsnet/compress/internal/cgo/zstd"
+import "github.com/gy-games-libs/compress/internal/cgo/zstd"
 
 func init() {
 	RegisterEncoder(FormatZstd, "cgo", zstd.NewWriter)

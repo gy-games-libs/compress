@@ -9,9 +9,9 @@ package main
 import (
 	"io"
 
-	"github.com/dsnet/compress/brotli"
-	"github.com/dsnet/compress/bzip2"
-	"github.com/dsnet/compress/flate"
+	"github.com/gy-games-libs/compress/brotli"
+	"github.com/gy-games-libs/compress/bzip2"
+	"github.com/gy-games-libs/compress/flate"
 )
 
 func init() {

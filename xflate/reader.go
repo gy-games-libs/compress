@@ -12,8 +12,8 @@ import (
 	"io/ioutil"
 	"math"
 
-	"github.com/dsnet/compress/internal/errors"
-	"github.com/dsnet/compress/xflate/internal/meta"
+	"github.com/gy-games-libs/compress/internal/errors"
+	"github.com/gy-games-libs/compress/xflate/internal/meta"
 )
 
 // chunk is a tuple of raw (uncompressed) size and compressed size for a chunk.

@@ -11,9 +11,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/dsnet/compress"
-	"github.com/dsnet/compress/internal"
-	"github.com/dsnet/compress/internal/errors"
+	"github.com/gy-games-libs/compress"
+	"github.com/gy-games-libs/compress/internal"
+	"github.com/gy-games-libs/compress/internal/errors"
 )
 
 // Reader implements a prefix decoder. If the input io.Reader satisfies the

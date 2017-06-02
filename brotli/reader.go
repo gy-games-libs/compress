@@ -8,8 +8,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/dsnet/compress/internal"
-	"github.com/dsnet/compress/internal/errors"
+	"github.com/gy-games-libs/compress/internal"
+	"github.com/gy-games-libs/compress/internal/errors"
 )
 
 type Reader struct {

@@ -40,23 +40,23 @@ type Writer struct { ... }
   func (*Writer) Close() error                              { ... }
 ```
 
-To see what work still remains, see the [Task List](https://github.com/dsnet/compress/wiki/Task-List).
+To see what work still remains, see the [Task List](https://github.com/gy-games-libs/compress/wiki/Task-List).
 
 ## Performance  ##
 
-See [Performance Metrics](https://github.com/dsnet/compress/wiki/Performance-Metrics).
+See [Performance Metrics](https://github.com/gy-games-libs/compress/wiki/Performance-Metrics).
 
 
 ## Frequently Asked Questions ##
 
-See [Frequently Asked Questions](https://github.com/dsnet/compress/wiki/Frequently-Asked-Questions).
+See [Frequently Asked Questions](https://github.com/gy-games-libs/compress/wiki/Frequently-Asked-Questions).
 
 
 ## Installation ##
 
 Run the command:
 
-```go get -u github.com/dsnet/compress```
+```go get -u github.com/gy-games-libs/compress```
 
 This library requires `Go1.7` or higher in order to build.
 
@@ -65,7 +65,7 @@ This library requires `Go1.7` or higher in order to build.
 
 | Package | Description |
 | :------ | :---------- |
-| [brotli](http://godoc.org/github.com/dsnet/compress/brotli) | Package brotli implements the Brotli format, described in RFC 7932. |
-| [bzip2](http://godoc.org/github.com/dsnet/compress/bzip2) | Package bzip2 implements the BZip2 compressed data format. |
-| [flate](http://godoc.org/github.com/dsnet/compress/flate) | Package flate implements the DEFLATE format, described in RFC 1951. |
-| [xflate](http://godoc.org/github.com/dsnet/compress/xflate) | Package xflate implements the XFLATE format, an random-access extension to DEFLATE. |
+| [brotli](http://godoc.org/github.com/gy-games-libs/compress/brotli) | Package brotli implements the Brotli format, described in RFC 7932. |
+| [bzip2](http://godoc.org/github.com/gy-games-libs/compress/bzip2) | Package bzip2 implements the BZip2 compressed data format. |
+| [flate](http://godoc.org/github.com/gy-games-libs/compress/flate) | Package flate implements the DEFLATE format, described in RFC 1951. |
+| [xflate](http://godoc.org/github.com/gy-games-libs/compress/xflate) | Package xflate implements the XFLATE format, an random-access extension to DEFLATE. |

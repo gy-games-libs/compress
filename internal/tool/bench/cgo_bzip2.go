@@ -6,7 +6,7 @@
 
 package main
 
-import "github.com/dsnet/compress/internal/cgo/bzip2"
+import "github.com/gy-games-libs/compress/internal/cgo/bzip2"
 
 func init() {
 	RegisterEncoder(FormatBZ2, "cgo", bzip2.NewWriter)

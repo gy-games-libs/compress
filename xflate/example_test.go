@@ -15,8 +15,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/dsnet/compress/internal/testutil"
-	"github.com/dsnet/compress/xflate"
+	"github.com/gy-games-libs/compress/internal/testutil"
+	"github.com/gy-games-libs/compress/xflate"
 )
 
 func init() { log.SetFlags(log.Lshortfile) }

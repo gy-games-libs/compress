@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dsnet/golib/strconv"
+	"github.com/gy-games-libs/golib/strconv"
 )
 
 // Section: Format and Test enumerations
@@ -186,7 +186,7 @@ func defaultCodecs() []string {
 }
 
 func defaultPaths() []string {
-	const testdataPkg = "github.com/dsnet/compress/testdata"
+	const testdataPkg = "github.com/gy-games-libs/compress/testdata"
 	pkg, err := build.Import(testdataPkg, "", build.FindOnly)
 	if err != nil {
 		return nil

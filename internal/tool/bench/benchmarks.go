@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dsnet/compress/internal/testutil"
+	"github.com/gy-games-libs/compress/internal/testutil"
 )
 
 type Result struct {

@@ -6,7 +6,7 @@
 
 package main
 
-import "github.com/dsnet/compress/internal/cgo/brotli"
+import "github.com/gy-games-libs/compress/internal/cgo/brotli"
 
 func init() {
 	RegisterEncoder(FormatBrotli, "cgo", brotli.NewWriter)

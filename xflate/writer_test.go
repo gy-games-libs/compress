@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/dsnet/compress/internal/testutil"
+	"github.com/gy-games-libs/compress/internal/testutil"
 )
 
 func TestWriter(t *testing.T) {

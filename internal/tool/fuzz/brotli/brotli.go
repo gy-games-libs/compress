@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	gbrotli "github.com/dsnet/compress/brotli"
-	cbrotli "github.com/dsnet/compress/internal/cgo/brotli"
+	gbrotli "github.com/gy-games-libs/compress/brotli"
+	cbrotli "github.com/gy-games-libs/compress/internal/cgo/brotli"
 )
 
 func Fuzz(data []byte) int {

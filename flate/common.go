@@ -9,7 +9,7 @@ package flate
 import (
 	"fmt"
 
-	"github.com/dsnet/compress/internal/errors"
+	"github.com/gy-games-libs/compress/internal/errors"
 )
 
 const (

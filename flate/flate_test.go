@@ -14,7 +14,7 @@ import (
 	// round-trip test.
 	"compress/flate"
 
-	"github.com/dsnet/compress/internal/testutil"
+	"github.com/gy-games-libs/compress/internal/testutil"
 )
 
 var testdata = []struct {

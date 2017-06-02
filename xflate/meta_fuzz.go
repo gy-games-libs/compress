@@ -11,7 +11,7 @@ package xflate
 import (
 	"io"
 
-	"github.com/dsnet/compress/xflate/internal/meta"
+	"github.com/gy-games-libs/compress/xflate/internal/meta"
 )
 
 func NewMetaReader(r io.Reader) *meta.Reader {

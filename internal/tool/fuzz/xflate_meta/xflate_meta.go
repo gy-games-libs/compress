@@ -11,7 +11,7 @@ import (
 	"compress/flate"
 	"io/ioutil"
 
-	"github.com/dsnet/compress/xflate"
+	"github.com/gy-games-libs/compress/xflate"
 )
 
 func Fuzz(data []byte) int {

@@ -9,7 +9,7 @@ package main
 import (
 	"io"
 
-	"github.com/klauspost/compress/flate"
+	"github.com/gy-games-libs/compress/flate"
 )
 
 func init() {

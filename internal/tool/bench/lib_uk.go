@@ -10,7 +10,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/ulikunitz/xz/lzma"
+	"github.com/gy-games-libs/xz/lzma"
 )
 
 func init() {

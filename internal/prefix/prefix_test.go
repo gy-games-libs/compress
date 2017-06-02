@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dsnet/compress"
-	"github.com/dsnet/compress/internal"
-	"github.com/dsnet/compress/internal/testutil"
+	"github.com/gy-games-libs/compress"
+	"github.com/gy-games-libs/compress/internal"
+	"github.com/gy-games-libs/compress/internal/testutil"
 )
 
 const testSize = 1000
